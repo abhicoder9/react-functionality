@@ -1,0 +1,46 @@
+.slider {
+    display: flex;
+    position: relative;
+}
+
+.fa-angle-left , .fa-angle-right{
+    font-size: 3rem;
+    background-color: rgb(169, 169, 169);
+    box-sizing: 2px 80px 90px 2px rgb(180, 65, 65);
+    position: absolute;
+    top: 350px;
+    width: 3rem;
+    height: 5rem;
+    padding-top: 2rem;
+    padding-left: 1rem;
+    box-shadow: 4px 4px 20px 0px rgb(171, 171, 171);
+}
+.fa-angle-right{
+    margin-left: 1220px;
+    padding-left: 1.1rem;
+}
+.Slide{
+    position: absolute;
+    top: 220px;
+    left: 100px;
+    width: 85%;
+}
+.Slide.Current{
+    height: 60%;
+}
+.content{
+    position: absolute;
+    top: 300px;
+    left: 25.5rem;
+    text-align: center;
+}
+.content h1{
+    font-size: 50px;
+}
+img{
+    width: 100px;
+    position: absolute;
+    z-index: -2;
+    top: 130px;
+    left: 460px;
+}
